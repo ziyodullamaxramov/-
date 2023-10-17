@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #2D2D2D;
+  height: 125px;
+  padding: 30px 0px;
+  color: #fff;
+  font-weight: bold;
+}
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+header .container .hdr-left-d {
+  display: flex;
+  width: 30%;
+}
+header .container .hdr-left-d p {
+  margin-left: 4%;
+}
+header .container .hdr-right-d {
+  display: flex;
+  margin-left: 5%;
+}
+header .container .hdr-right-d .hdr-first-tex {
+  display: flex;
+  margin-top: 3%;
+}
+header .container .hdr-right-d .hdr-first-tex .next {
+  padding-left: 25px;
+  display: flex;
+}
+header .container .hdr-right-d .hdr-first-tex .next img {
+  padding: 0px 5px;
+}
+header .container .hdr-right-d .hdr-second-tex p {
+  position: absolute;
+  right: 350px;
+  top: 45px;
+}
+header .container .hdr_code {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+header .container .hdr_code img {
+  position: absolute;
+  right: 135px;
+  top: 15px;
+}/*# sourceMappingURL=style.css.map */
