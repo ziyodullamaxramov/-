@@ -1,0 +1,88 @@
+// blog_stranisiy_statiya-fozil
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: Montserrat;
+    background: whitesmoke;
+}
+.contaner_blog_stansiya{
+    margin: 0 auto;
+    width: 1168px;
+    h1{
+        margin: 50px 0px;
+    }
+    pre {
+        white-space: pre-wrap;
+        margin: 50px 0px;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        
+    }
+    .img_blog{
+        img{
+            width: 565px;
+            height: 493px;
+        }
+    }
+}
+.kartochki{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-bottom: 100px;
+    div{
+        width: 370px;
+        height: 589px;
+        background: white;
+        h6{        
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 2px;
+            text-align: left;
+            margin: auto;
+            background: white;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: auto;
+            background: white;
+        }
+        button{
+            width: 203.3px;
+            height: 46.22px;
+            background: #FCB427;
+            color: white;
+            border: none;
+            margin: 10px  px;
+
+        }
+    }
+}
+.navigasiya_headerline{
+    display: flex;
+    justify-content: space-between;
+    div{
+        display: grid;
+        grid-template-columns: auto auto;
+        img:first-child{
+            margin-top: 16px;
+            margin-right: 20px;
+        }
+    }
+}
+.kontakti_blog{
+    img{
+        width: 100%;
+        height: 548px;
+    }
+}
+// END blog_stranisiy_statiya-fozil
