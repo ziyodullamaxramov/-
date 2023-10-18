@@ -86,3 +86,65 @@
     }
 }
 // END blog_stranisiy_statiya-fozil
+// object page Abrorjon
+
+.main{
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    padding: 50px 245px;
+
+    .main-header{
+        margin: 100px 0;
+        h1{
+            margin-bottom: 50px;
+            font-size: 40px;
+        }
+    }
+    .main-imges{
+        width: 100%;
+
+        .imges-group{
+            padding: 20px 0;
+            display: flex;
+            gap: 30px;
+        }
+    }
+    .main-text{
+        padding: 100px 0;
+        p{
+            color: #2D2D2D;
+            font-size: 18px;
+            line-height: 25.07px;
+        }
+    }
+    .main-card{
+        h1{
+            margin-bottom: 50px;
+        }
+        .cards{
+            display: flex;
+            gap: 30px;
+            .card{
+                h3{
+                    margin: 14px;
+                }
+            }
+        }
+        .button{
+            text-align: center;
+            padding: 20px 0;
+            button{
+                padding: 15px 50px;
+                border: 1px solid #FCB427;
+            }
+        }
+    }
+}
+
+// object page Abrorjon
