@@ -58,7 +58,7 @@
 .kartochki div button {
   width: 203.3px;
   height: 46.22px;
-  background: #FCB427;
+  background: #fcb427;
   color: white;
   border: none;
   margin: 10px px;
@@ -82,10 +82,126 @@
   height: 548px;
 }
 
-header {
+.main {
+  padding: 50px 245px;
+}
+.main * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main .main-header {
+  margin: 100px 0;
+}
+.main .main-header h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.main .main-imges {
   width: 100%;
-  height: 100px;
-  background: #d5cfcf;
+}
+.main .main-imges .imges-group {
+  padding: 20px 0;
+  display: flex;
+  gap: 30px;
+}
+.main .main-text {
+  padding: 100px 0;
+}
+.main .main-text p {
+  color: #2d2d2d;
+  font-size: 18px;
+  line-height: 25.07px;
+}
+.main .main-card h1 {
+  margin-bottom: 50px;
+}
+.main .main-card .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  text-align: center;
+  gap: 30px;
+}
+.main .main-card .cards .card h3 {
+  margin: 14px;
+}
+.main .main-card .button {
+  text-align: center;
+  padding: 20px 0;
+}
+.main .main-card .button button {
+  padding: 15px 50px;
+  border: 1px solid #fcb427;
+}
+@media screen and (max-width: 1400px) {
+  .main .imges-group {
+    overflow-x: scroll;
+  }
+  .main .last-card {
+    display: none;
+  }
+  .main ::-webkit-scrollbar {
+    width: 2em;
+    height: 1em;
+  }
+  .main ::-webkit-scrollbar-track {
+    background: hsl(120, 8%, 80%);
+    border-radius: 100vw;
+    margin-block: 0.5em;
+  }
+  .main ::-webkit-scrollbar-thumb {
+    background: hsl(120, 4%, 45%);
+    border: 0.25em solid hsl(120, 10%, 57%);
+    border-radius: 100vw;
+  }
+  .main ::-webkit-scrollbar-thumb:hover {
+    background: hsl(120, 4%, 81%);
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  padding: 80px 90px;
+  background-color: #2d2d2d;
+  color: white;
+  gap: 30px;
+}
+footer * {
+  background-color: #2d2d2d;
+}
+footer p {
+  font-family: sans-serif;
+}
+footer .ek, footer p, footer img {
+  width: fit-content;
+}
+footer ul {
+  width: 220px;
+}
+footer ul li {
+  list-style: none;
+  line-height: 25px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+footer .Contactme button {
+  padding: 15px 50px;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+  width: 224px;
+}
+footer .Contactme .icons {
+  display: flex;
+  gap: 16px;
+}
+footer .Contactme .icons img {
+  width: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
