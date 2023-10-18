@@ -97,7 +97,7 @@ nav{
 //companysection1 start
 .companysection1{
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     font-family: sans-serif;
     background-color: #f7f6f6;
 }
@@ -119,7 +119,56 @@ nav{
 .companysection1 p{
     font-size: 16px;
     line-height: 25px;
+    margin-left: 70px;
+    margin-top: 7%;
 }
 .companysection1 img{
+    float: right;
+    width: 688px;
+    height: 542px;
+}
+//end
+
+//start companysection2
+.companysection2{
+    width: 100%;
+    height: 1000px;
+    font-family: sans-serif;
+}
+.companysection2 h1{
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 55px;
+    margin-left: 70px;
+}
+.companysection2 h2{
+    font-size: 155px;
+    font-family: sans-serif;
+    color:#f0efef;
+}
+.companylist{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+}
+.company-box img{
+    width: 300px;
+    height: 380px;
+    margin-left: 70px;
+}
+.company-box h4{
+    width: 301px;
+    height: 52px;
+    margin-left: 70px;
+    background-color: #FFBF1D;
+    line-height: 25px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+.companysection2 h3{
+    font-size: 155px;
+    font-family: sans-serif;
+    color:#f0efef;
     float: right;
 }
