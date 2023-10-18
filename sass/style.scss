@@ -1,150 +1,188 @@
 // blog_stranisiy_statiya-fozil
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
-    font-family: Montserrat;
-    background: whitesmoke;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  background: whitesmoke;
 }
-.contaner_blog_stansiya{
-    margin: 0 auto;
-    width: 1168px;
-    h1{
-        margin: 50px 0px;
+.contaner_blog_stansiya {
+  margin: 0 auto;
+  width: 1168px;
+  h1 {
+    margin: 50px 0px;
+  }
+  pre {
+    white-space: pre-wrap;
+    margin: 50px 0px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .img_blog {
+    img {
+      width: 565px;
+      height: 493px;
     }
-    pre {
-        white-space: pre-wrap;
-        margin: 50px 0px;
-        font-size: 16px;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: left;
-
-        
-    }
-    .img_blog{
-        img{
-            width: 565px;
-            height: 493px;
-        }
-    }
+  }
 }
-.kartochki{
+.kartochki {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  margin-bottom: 100px;
+  div {
+    width: 370px;
+    height: 589px;
+    background: white;
+    h6 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 26px;
+      letter-spacing: 2px;
+      text-align: left;
+      margin: auto;
+      background: white;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin: auto;
+      background: white;
+    }
+    button {
+      width: 203.3px;
+      height: 46.22px;
+      background: #fcb427;
+      color: white;
+      border: none;
+      margin: 10px px;
+    }
+  }
+}
+.navigasiya_headerline {
+  display: flex;
+  justify-content: space-between;
+  div {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 30px;
-    margin-bottom: 100px;
-    div{
-        width: 370px;
-        height: 589px;
-        background: white;
-        h6{        
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 26px;
-            letter-spacing: 2px;
-            text-align: left;
-            margin: auto;
-            background: white;
-        }
-        p{
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 25px;
-            letter-spacing: 0em;
-            text-align: left;
-            margin: auto;
-            background: white;
-        }
-        button{
-            width: 203.3px;
-            height: 46.22px;
-            background: #FCB427;
-            color: white;
-            border: none;
-            margin: 10px  px;
-
-        }
+    grid-template-columns: auto auto;
+    img:first-child {
+      margin-top: 16px;
+      margin-right: 20px;
     }
+  }
 }
-.navigasiya_headerline{
-    display: flex;
-    justify-content: space-between;
-    div{
-        display: grid;
-        grid-template-columns: auto auto;
-        img:first-child{
-            margin-top: 16px;
-            margin-right: 20px;
-        }
-    }
-}
-.kontakti_blog{
-    img{
-        width: 100%;
-        height: 548px;
-    }
+.kontakti_blog {
+  img {
+    width: 100%;
+    height: 548px;
+  }
 }
 // END blog_stranisiy_statiya-fozil
 // object page Abrorjon
+.main {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
 
-.main{
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
+  padding: 50px 245px;
 
-    padding: 50px 245px;
+  .main-header {
+    margin: 100px 0;
+    h1 {
+      margin-bottom: 50px;
+      font-size: 40px;
+    }
+  }
+  .main-imges {
+    width: 100%;
 
-    .main-header{
-        margin: 100px 0;
-        h1{
-            margin-bottom: 50px;
-            font-size: 40px;
-        }
+    .imges-group {
+      padding: 20px 0;
+      display: flex;
+      gap: 30px;
     }
-    .main-imges{
-        width: 100%;
-
-        .imges-group{
-            padding: 20px 0;
-            display: flex;
-            gap: 30px;
-        }
+  }
+  .main-text {
+    padding: 100px 0;
+    p {
+      color: #2d2d2d;
+      font-size: 18px;
+      line-height: 25.07px;
     }
-    .main-text{
-        padding: 100px 0;
-        p{
-            color: #2D2D2D;
-            font-size: 18px;
-            line-height: 25.07px;
-        }
+  }
+  .main-card {
+    h1 {
+      margin-bottom: 50px;
     }
-    .main-card{
-        h1{
-            margin-bottom: 50px;
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+      text-align: center;
+      gap: 30px;
+      .card {
+        h3 {
+          margin: 14px;
         }
-        .cards{
-            display: flex;
-            gap: 30px;
-            .card{
-                h3{
-                    margin: 14px;
-                }
-            }
-        }
-        .button{
-            text-align: center;
-            padding: 20px 0;
-            button{
-                padding: 15px 50px;
-                border: 1px solid #FCB427;
-            }
-        }
+      }
     }
+    .button {
+      text-align: center;
+      padding: 20px 0;
+      button {
+        padding: 15px 50px;
+        border: 1px solid #fcb427;
+      }
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .imges-group {
+      overflow-x: scroll;
+    }
+    .last-card{
+        display: none;
+    }
+    ::-webkit-scrollbar {
+        width: 2em;
+        height: 1em;
+      }
+      ::-webkit-scrollbar-track {
+        background: hsl(120, 8%, 80%);
+        border-radius: 100vw;
+        margin-block: 0.5em;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: hsl(120, 4%, 45%);
+        border: 0.25em solid hsl(120, 10%, 57%);
+        border-radius: 100vw;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: hsl(120, 4%, 81%);
+      }
+  }
+//   nav::-webkit-scrollbar {
+//     width: 2em;
+//     height: 1em;
+//   }
+//   nav::-webkit-scrollbar-track {
+//     background: hsl(120, 8%, 55%);
+//     border-radius: 100vw;
+//     margin-block: 0.5em;
+//   }
+//   nav::-webkit-scrollbar-thumb {
+//     background: hsl(120, 4%, 45%);
+//     border: 0.25em solid hsl(120, 10%, 57%);
+//     border-radius: 100vw;
+//   }
+//   nav::-webkit-scrollbar-thumb:hover {
+//     background: hsl(120, 3%, 29%);
+//   }
 }
-
 // object page Abrorjon

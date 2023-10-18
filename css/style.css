@@ -58,7 +58,7 @@
 .kartochki div button {
   width: 203.3px;
   height: 46.22px;
-  background: #FCB427;
+  background: #fcb427;
   color: white;
   border: none;
   margin: 10px px;
@@ -110,7 +110,7 @@
   padding: 100px 0;
 }
 .main .main-text p {
-  color: #2D2D2D;
+  color: #2d2d2d;
   font-size: 18px;
   line-height: 25.07px;
 }
@@ -118,7 +118,9 @@
   margin-bottom: 50px;
 }
 .main .main-card .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  text-align: center;
   gap: 30px;
 }
 .main .main-card .cards .card h3 {
@@ -130,7 +132,32 @@
 }
 .main .main-card .button button {
   padding: 15px 50px;
-  border: 1px solid #FCB427;
+  border: 1px solid #fcb427;
+}
+@media screen and (max-width: 1400px) {
+  .main .imges-group {
+    overflow-x: scroll;
+  }
+  .main .last-card {
+    display: none;
+  }
+  .main ::-webkit-scrollbar {
+    width: 2em;
+    height: 1em;
+  }
+  .main ::-webkit-scrollbar-track {
+    background: hsl(120, 8%, 80%);
+    border-radius: 100vw;
+    margin-block: 0.5em;
+  }
+  .main ::-webkit-scrollbar-thumb {
+    background: hsl(120, 4%, 45%);
+    border: 0.25em solid hsl(120, 10%, 57%);
+    border-radius: 100vw;
+  }
+  .main ::-webkit-scrollbar-thumb:hover {
+    background: hsl(120, 4%, 81%);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
