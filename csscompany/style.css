@@ -85,9 +85,44 @@ nav .input-div {
 }
 nav .input-div input {
   border: none;
+  outline: none;
 }
 nav .input-div i {
   color: #a9a4a4;
+}
+
+.companysection1 {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #f7f6f6;
+}
+
+.companysection1 h4 {
+  margin-top: 51px;
+  margin-left: 70px;
+  font-family: sans-serif;
+}
+
+.companysection1 span {
+  color: #a9a4a4;
+  font-family: sans-serif;
+}
+
+.companysection1 h1 {
+  margin-top: 71px;
+  margin-left: 70px;
+  line-height: 62px;
+  font-size: 44px;
+}
+
+.companysection1 p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.companysection1 img {
+  float: right;
 }
 
 /*# sourceMappingURL=style.css.map */
