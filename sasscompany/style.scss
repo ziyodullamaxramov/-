@@ -168,6 +168,7 @@ nav{
     font-size: 18px;
     align-items: center;
     text-align: center;
+    padding-top:5px ;
 }
 .companysection2 h3{
     font-size: 155px;
@@ -428,7 +429,9 @@ nav{
 
 //end companysection7
 
-// footer css code Abrorjon
+@media screen and (max-width: 1400px) {
+    
+}
 
 footer{
     *{
