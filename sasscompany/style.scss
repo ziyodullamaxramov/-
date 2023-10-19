@@ -178,8 +178,9 @@ nav{
 //start companysection3
 .companysection3{
     width: 100%;
-    height: 1000px;
-    background-color: #f7f6f6; ;
+    height: 960px;
+    background-color: #f7f6f6; 
+    font-family: sans-serif;
 }
 .companysection3 h1{
     font-size: 40px;
@@ -205,3 +206,72 @@ nav{
     margin-left: 480px;
     margin-top: 30px;
 }
+//end companysection3
+
+//start companysection4
+.companysection4{
+    width: 100%;
+    height: 530px;
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+}
+.companysection4 h1{
+    font-size: 40px;
+    line-height: 56px;
+    padding-top: 100px;
+    margin-left: 70px;
+    color: #fff;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.number-box h2{
+    font-family: Verdana;
+    font-size: 96px;
+    line-height: 96px;
+    color: #454545;
+    margin-right: 150px;
+}
+.numbers2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 170px;
+}
+.number-box2 h3{
+    font-size: 64px;
+    line-height: 64px;
+    color: #fff;
+    font-family: Verdana;
+    margin-right: 200px;
+    margin-top: -60px;
+}
+.numbers3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 170px;
+}
+.number-box3 h4{
+    font-size: 28px;
+    line-height: 39px;
+    color: #fff;
+    align-items: center;
+    font-family: Verdana;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.number-box3 p{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: Verdana;
+    color: #fff;
+    margin-top: 10px;
+}
+//end companysection4
+
+
