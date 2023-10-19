@@ -28,6 +28,13 @@
 //     }
 // }
 
+// @media //
+@media only screen and (max-width: 1400px){
+  header {
+    width: 50%;
+  }
+}
+
 header {
     width: 100%;
     background-color: #2D2D2D;
@@ -94,6 +101,9 @@ header {
                     }
                 }
             }
+        }
+        .active {
+          color: coral; !important
         }
     }
     .hdr-left-input {
@@ -257,9 +267,6 @@ main {
     }
 }
 
-// header start
-
-header {
   width: 100%;
   height: 100px;
   background: #2d2d2d;
@@ -588,6 +595,4 @@ footer {
     }
   }
 }
-
-// footer css code Abrorjon
 
