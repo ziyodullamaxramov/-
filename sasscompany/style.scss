@@ -318,3 +318,53 @@ nav{
 
 //end companysection7
 
+// footer css code Abrorjon
+
+footer{
+    *{
+        background-color: #2d2d2d;
+    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    padding: 80px 90px;
+    background-color: #2d2d2d;
+    color: white;
+    gap: 30px;
+    p{
+        font-family: sans-serif;
+    }
+    .ek, p , img{
+        width: fit-content;
+    }
+    ul{
+        width: 220px;
+        li{
+            list-style: none;
+            line-height: 25px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: sans-serif;
+            }
+        }
+    }
+    .Contactme{
+        button {
+            padding: 15px 50px;
+            color: #000000;
+            background-color: #FFFFFF;
+            font-family: sans-serif;
+            width: 224px;
+          }
+          .icons{
+              display: flex;
+              gap: 16px;
+            img{
+                width: 30px;
+            }
+          }
+    }
+}
+
+// footer css code Abrorjon
+
