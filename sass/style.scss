@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -267,8 +266,7 @@ main {
         }
     }
 }
-// header start
-header{
+
   width: 100%;
   height: 100px;
   background: #2d2d2d;
@@ -276,81 +274,80 @@ header{
   justify-content: space-around;
   color: #fff;
   line-height: 26px;
-  .logo-div{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 30%;
-      margin-left: -5%;
-      a{
-          margin-left: 14%;
-      }
-      p{
-          margin-left: 10%;
-      }
+  .logo-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-left: -5%;
+    a {
+      margin-left: 14%;
+    }
+    p {
+      margin-left: 10%;
+    }
   }
-  .icon-div{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 55%;
-      *{
-          margin-left: 2%;
+  .icon-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    * {
+      margin-left: 2%;
+    }
+    button {
+      background: transparent;
+      color: #fff;
+      padding: 15px 30px;
+      border: 1px solid #ffbf1d;
+      font-weight: 550;
+      transition: all 0.4s;
+      &:hover {
+        background-color: #4d4c4c;
       }
-      button{
-          background: transparent;
-          color: #fff;
-          padding: 15px 30px;
-          border: 1px solid #FFBF1D;
-          font-weight: 550;
-          transition: all .4s;
-          &:hover{
-              background-color: #4d4c4c;
-          }
-      }
-      i{
-          color: #FFBF1D;
-          margin-right: -2%;
-      }
+    }
+    i {
+      color: #ffbf1d;
+      margin-right: -2%;
+    }
   }
 }
 
-nav{
+nav {
   width: 1150px;
   height: 36px;
   display: flex;
   margin: 0px auto;
   font-size: 18px;
   justify-content: start;
-  align-items:center;     
-  ul{
-      display: flex;
-      list-style-type: none;
-      gap: 30px;
-      margin-top: 50px;
-          a{
-            text-decoration: none;
-            color:#2d2d2d;
-            &:hover{
-              color: rgb(97, 86, 86);
-            }
-          }
-      
+  align-items: center;
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-top: 50px;
+    a {
+      text-decoration: none;
+      color: #2d2d2d;
+      &:hover {
+        color: rgb(97, 86, 86);
+      }
+    }
   }
-  .input-div{
-      position: absolute;
-      right: 5%;
-      top: 18%;
-      display: inline-block;
-      border: 1px solid #2d2d2d;
-      padding: 5px;
-      input{
-          border: none;
-          outline: none;
-      }
-      i{
-          color: #a9a4a4;
-      }
+  .input-div {
+    position: absolute;
+    right: 5%;
+    top: 18%;
+    display: inline-block;
+    border: 1px solid #2d2d2d;
+    padding: 5px;
+    input {
+      border: none;
+      outline: none;
+    }
+    i {
+      color: #a9a4a4;
+    }
   }
 }
 // header end
@@ -360,9 +357,8 @@ nav{
   padding: 0;
   box-sizing: border-box;
   font-family: Montserrat;
-
 }
-main{
+body {
   background: whitesmoke;
 }
 .contaner_blog_stansiya {
@@ -442,14 +438,11 @@ main{
   }
 }
 /* Стили для мобильных устройств */
-@media (max-width: 767px) {
-  
+@media screen and (max-width: 1400px) {
+  .last-card {
+    display: none;
+  }
 }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  
-}
-
 // END blog_stranisiy_statiya-fozil
 // object page Abrorjon
 .main {
@@ -460,7 +453,8 @@ main{
     font-family: sans-serif;
   }
 
-  padding: 50px 245px;
+  padding: 50px 244px;
+  margin: 0 auto;
 
   .main-header {
     margin: 100px 0;
@@ -471,7 +465,7 @@ main{
   }
   .main-imges {
     width: 100%;
-
+    margin: 0 auto;
     .imges-group {
       padding: 20px 0;
       display: flex;
@@ -481,18 +475,21 @@ main{
   .main-text {
     padding: 100px 0;
     p {
+      text-align: left;
       color: #2d2d2d;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 25.07px;
     }
   }
   .main-card {
+    // margin: 0 auto;
     h1 {
       margin-bottom: 50px;
     }
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      justify-content: space-between;
       text-align: center;
       gap: 30px;
       .card {
@@ -510,78 +507,92 @@ main{
       }
     }
   }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1620px) {
     .imges-group {
       overflow-x: scroll;
     }
-    .last-card{
-        display: none;
+    .last-card {
+      display: none;
+    }
+    main {
+      padding: 0;
     }
     ::-webkit-scrollbar {
-        width: 2em;
-        height: 1em;
-      }
-      ::-webkit-scrollbar-track {
-        background: hsl(120, 8%, 80%);
-        border-radius: 100vw;
-        margin-block: 0.5em;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: hsl(120, 4%, 45%);
-        border: 0.25em solid hsl(120, 10%, 57%);
-        border-radius: 100vw;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: hsl(120, 4%, 81%);
-      }
+      width: 2em;
+      height: 1em;
+    }
+    ::-webkit-scrollbar-track {
+      background: hsl(120, 8%, 80%);
+      border-radius: 100vw;
+      margin-block: 0.5em;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: hsl(120, 4%, 45%);
+      border: 0.25em solid hsl(120, 10%, 57%);
+      border-radius: 100vw;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: hsl(120, 4%, 81%);
+    }
+  }
+  @media screen and (min-width: 1620px) {
+    main {
+      padding: 50px 44px;
+    }
   }
 }
 // object page Abrorjon
 // footer css code Abrorjon
-
-footer{
-    *{
-        background-color: #2d2d2d;
-    }
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    padding: 80px 90px;
-    background-color: #2d2d2d;
-    color: white;
-    gap: 30px;
-    p{
-        font-family: sans-serif;
-    }
-    .ek, p , img{
-        width: fit-content;
-    }
-    ul{
-        width: 220px;
-        li{
-            list-style: none;
-            line-height: 25px;
-            a{
-                text-decoration: none;
-                color: white;
-                font-family: sans-serif;
-            }
-        }
-    }
-    .Contactme{
-        button {
-            padding: 15px 50px;
-            color: #000000;
-            background-color: #FFFFFF;
-            font-family: sans-serif;
-            width: 224px;
-          }
-          .icons{
-              display: flex;
-              gap: 16px;
-            img{
-                width: 30px;
-            }
-          }
-    }
+html {
+  width: 100%;
 }
-// footer css code Abrorjon
+footer {
+  * {
+    background-color: #2d2d2d;
+  }
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  padding: 80px 90px;
+  background-color: #2d2d2d;
+  color: white;
+  gap: 30px;
+  p {
+    font-family: sans-serif;
+  }
+  .ek,
+  p,
+  img {
+    width: fit-content;
+    width: 100%;
+  }
+  ul {
+    width: 220px;
+    li {
+      list-style: none;
+      line-height: 25px;
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+      }
+    }
+  }
+  .Contactme {
+    button {
+      padding: 15px 50px;
+      color: #000000;
+      background-color: #ffffff;
+      font-family: sans-serif;
+      width: 224px;
+    }
+    .icons {
+      display: flex;
+      gap: 16px;
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
+

@@ -34,7 +34,7 @@ header .icon-div button {
   background: transparent;
   color: #fff;
   padding: 15px 30px;
-  border: 1px solid #FFBF1D;
+  border: 1px solid #ffbf1d;
   font-weight: 550;
   transition: all 0.4s;
 }
@@ -42,7 +42,7 @@ header .icon-div button:hover {
   background-color: #4d4c4c;
 }
 header .icon-div i {
-  color: #FFBF1D;
+  color: #ffbf1d;
   margin-right: -2%;
 }
 
@@ -91,7 +91,7 @@ nav .input-div i {
   font-family: Montserrat;
 }
 
-main {
+body {
   background: whitesmoke;
 }
 
@@ -172,8 +172,14 @@ main {
 }
 
 /* Стили для мобильных устройств */
+@media screen and (max-width: 1400px) {
+  .last-card {
+    display: none;
+  }
+}
 .main {
-  padding: 50px 245px;
+  padding: 50px 244px;
+  margin: 0 auto;
 }
 .main * {
   margin: 0;
@@ -190,6 +196,7 @@ main {
 }
 .main .main-imges {
   width: 100%;
+  margin: 0 auto;
 }
 .main .main-imges .imges-group {
   padding: 20px 0;
@@ -200,8 +207,9 @@ main {
   padding: 100px 0;
 }
 .main .main-text p {
+  text-align: left;
   color: #2d2d2d;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25.07px;
 }
 .main .main-card h1 {
@@ -210,6 +218,7 @@ main {
 .main .main-card .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  justify-content: space-between;
   text-align: center;
   gap: 30px;
 }
@@ -224,12 +233,15 @@ main {
   padding: 15px 50px;
   border: 1px solid #fcb427;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1620px) {
   .main .imges-group {
     overflow-x: scroll;
   }
   .main .last-card {
     display: none;
+  }
+  .main main {
+    padding: 0;
   }
   .main ::-webkit-scrollbar {
     width: 2em;
@@ -249,8 +261,18 @@ main {
     background: hsl(120, 4%, 81%);
   }
 }
+@media screen and (min-width: 1620px) {
+  .main main {
+    padding: 50px 44px;
+  }
+}
+
+html {
+  width: 100%;
+}
 
 footer {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   padding: 80px 90px;
@@ -264,8 +286,11 @@ footer * {
 footer p {
   font-family: sans-serif;
 }
-footer .ek, footer p, footer img {
+footer .ek,
+footer p,
+footer img {
   width: fit-content;
+  width: 100%;
 }
 footer ul {
   width: 220px;
@@ -282,7 +307,7 @@ footer ul li a {
 footer .Contactme button {
   padding: 15px 50px;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-family: sans-serif;
   width: 224px;
 }
