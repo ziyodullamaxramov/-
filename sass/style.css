@@ -266,7 +266,6 @@ header {
   color: #fff;
   line-height: 26px;
 }
-
 header .logo-div {
   display: flex;
   justify-content: space-between;
@@ -274,41 +273,34 @@ header .logo-div {
   width: 30%;
   margin-left: -5%;
 }
-
 header .logo-div a {
   margin-left: 14%;
 }
-
 header .logo-div p {
   margin-left: 10%;
 }
-
 header .icon-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 55%;
 }
-
 header .icon-div * {
   margin-left: 2%;
 }
-
 header .icon-div button {
   background: transparent;
   color: #fff;
   padding: 15px 30px;
-  border: 1px solid #ffbf1d;
+  border: 1px solid #FFBF1D;
   font-weight: 550;
   transition: all 0.4s;
 }
-
 header .icon-div button:hover {
   background-color: #4d4c4c;
 }
-
 header .icon-div i {
-  color: #ffbf1d;
+  color: #FFBF1D;
   margin-right: -2%;
 }
 
@@ -321,23 +313,19 @@ nav {
   justify-content: start;
   align-items: center;
 }
-
 nav ul {
   display: flex;
   list-style-type: none;
   gap: 30px;
   margin-top: 50px;
 }
-
 nav ul a {
   text-decoration: none;
   color: #2d2d2d;
 }
-
 nav ul a:hover {
   color: rgb(97, 86, 86);
 }
-
 nav .input-div {
   position: absolute;
   right: 5%;
@@ -346,12 +334,10 @@ nav .input-div {
   border: 1px solid #2d2d2d;
   padding: 5px;
 }
-
 nav .input-div input {
   border: none;
   outline: none;
 }
-
 nav .input-div i {
   color: #a9a4a4;
 }
@@ -363,7 +349,7 @@ nav .input-div i {
   font-family: Montserrat;
 }
 
-body {
+main {
   background: whitesmoke;
 }
 
@@ -371,11 +357,9 @@ body {
   margin: 0 auto;
   width: 1168px;
 }
-
 .contaner_blog_stansiya h1 {
   margin: 50px 0px;
 }
-
 .contaner_blog_stansiya pre {
   white-space: pre-wrap;
   margin: 50px 0px;
@@ -384,7 +368,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
-
 .contaner_blog_stansiya .img_blog img {
   width: 565px;
   height: 493px;
@@ -396,13 +379,11 @@ body {
   gap: 30px;
   margin-bottom: 100px;
 }
-
 .kartochki div {
   width: 370px;
   height: 589px;
   background: white;
 }
-
 .kartochki div h6 {
   font-size: 18px;
   font-weight: 700;
@@ -412,7 +393,6 @@ body {
   margin: auto;
   background: white;
 }
-
 .kartochki div p {
   font-size: 18px;
   font-weight: 400;
@@ -422,7 +402,6 @@ body {
   margin: auto;
   background: white;
 }
-
 .kartochki div button {
   width: 203.3px;
   height: 46.22px;
@@ -436,12 +415,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 .navigasiya_headerline div {
   display: grid;
   grid-template-columns: auto auto;
 }
-
 .navigasiya_headerline div img:first-child {
   margin-top: 16px;
   margin-right: 20px;
@@ -453,93 +430,64 @@ body {
 }
 
 /* Стили для мобильных устройств */
-@media screen and (max-width: 1400px) {
-  .last-card {
-    display: none;
-  }
-}
 .main {
-  padding: 50px 244px;
-  margin: 0 auto;
+  padding: 50px 245px;
 }
-
 .main * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
 .main .main-header {
   margin: 100px 0;
 }
-
 .main .main-header h1 {
   margin-bottom: 50px;
   font-size: 40px;
 }
-
 .main .main-imges {
   width: 100%;
-  margin: 0 auto;
 }
-
 .main .main-imges .imges-group {
   padding: 20px 0;
   display: flex;
   gap: 30px;
 }
-
 .main .main-text {
   padding: 100px 0;
 }
-
 .main .main-text p {
-  text-align: left;
   color: #2d2d2d;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25.07px;
 }
-
 .main .main-card h1 {
   margin-bottom: 50px;
 }
-
 .main .main-card .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  justify-content: space-between;
   text-align: center;
   gap: 30px;
 }
-
 .main .main-card .cards .card h3 {
   margin: 14px;
 }
-
 .main .main-card .button {
   text-align: center;
   padding: 20px 0;
 }
-
 .main .main-card .button button {
   padding: 15px 50px;
   border: 1px solid #fcb427;
 }
-
-
 @media screen and (max-width: 1400px) {
-=======
-@media screen and (max-width: 1620px) {
-
   .main .imges-group {
     overflow-x: scroll;
   }
   .main .last-card {
     display: none;
-  }
-  .main main {
-    padding: 0;
   }
   .main ::-webkit-scrollbar {
     width: 2em;
@@ -562,20 +510,6 @@ body {
 
 footer * {
   background-color: #2d2d2d;
-
-@media screen and (min-width: 1620px) {
-  .main main {
-    padding: 50px 44px;
-  }
-}
-
-html {
-  width: 100%;
-}
-
-footer {
-  width: 100%;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   padding: 80px 90px;
@@ -584,53 +518,36 @@ footer {
   gap: 30px;
   margin-top: 100px;
 }
-
 footer p {
   font-family: sans-serif;
 }
-
-
 footer .ek, footer p, footer img {
   width: -moz-fit-content;
-=======
-footer .ek,
-footer p,
-footer img {
-
   width: fit-content;
-  width: 100%;
 }
-
 footer ul {
   width: 220px;
 }
-
 footer ul li {
   list-style: none;
   line-height: 25px;
 }
-
 footer ul li a {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
 }
-
 footer .Contactme button {
   padding: 15px 50px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   font-family: sans-serif;
   width: 224px;
 }
-
 footer .Contactme .icons {
   display: flex;
   gap: 16px;
 }
-
 footer .Contactme .icons img {
   width: 30px;
-} 
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
