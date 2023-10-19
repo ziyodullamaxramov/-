@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -256,3 +257,325 @@ main {
         }
     }
 }
+=======
+// header start
+
+header{
+  width: 100%;
+  height: 100px;
+  background: #2d2d2d;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  line-height: 26px;
+  .logo-div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 30%;
+      margin-left: -5%;
+      a{
+          margin-left: 14%;
+      }
+      p{
+          margin-left: 10%;
+      }
+  }
+  .icon-div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 55%;
+      *{
+          margin-left: 2%;
+      }
+      button{
+          background: transparent;
+          color: #fff;
+          padding: 15px 30px;
+          border: 1px solid #FFBF1D;
+          font-weight: 550;
+          transition: all .4s;
+          &:hover{
+              background-color: #4d4c4c;
+          }
+      }
+      i{
+          color: #FFBF1D;
+          margin-right: -2%;
+      }
+  }
+}
+
+nav{
+  width: 1150px;
+  height: 36px;
+  display: flex;
+  margin: 0px auto;
+  font-size: 18px;
+  justify-content: start;
+  align-items:center;     
+  ul{
+      display: flex;
+      list-style-type: none;
+      gap: 30px;
+      margin-top: 50px;
+          a{
+            text-decoration: none;
+            color:#2d2d2d;
+            &:hover{
+              color: rgb(97, 86, 86);
+            }
+          }
+      
+  }
+  .input-div{
+      position: absolute;
+      right: 5%;
+      top: 18%;
+      display: inline-block;
+      border: 1px solid #2d2d2d;
+      padding: 5px;
+      input{
+          border: none;
+          outline: none;
+      }
+      i{
+          color: #a9a4a4;
+      }
+  }
+}
+// header end
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+
+}
+main{
+  background: whitesmoke;
+}
+.contaner_blog_stansiya {
+  margin: 0 auto;
+  width: 1168px;
+  h1 {
+    margin: 50px 0px;
+  }
+  pre {
+    white-space: pre-wrap;
+    margin: 50px 0px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .img_blog {
+    img {
+      width: 565px;
+      height: 493px;
+    }
+  }
+}
+.kartochki {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  margin-bottom: 100px;
+  div {
+    width: 370px;
+    height: 589px;
+    background: white;
+    h6 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 26px;
+      letter-spacing: 2px;
+      text-align: left;
+      margin: auto;
+      background: white;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin: auto;
+      background: white;
+    }
+    button {
+      width: 203.3px;
+      height: 46.22px;
+      background: #fcb427;
+      color: white;
+      border: none;
+      margin: 10px px;
+    }
+  }
+}
+.navigasiya_headerline {
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: grid;
+    grid-template-columns: auto auto;
+    img:first-child {
+      margin-top: 16px;
+      margin-right: 20px;
+    }
+  }
+}
+.kontakti_blog {
+  img {
+    width: 100%;
+    height: 548px;
+  }
+}
+/* Стили для мобильных устройств */
+@media (max-width: 767px) {
+  
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+// END blog_stranisiy_statiya-fozil
+// object page Abrorjon
+.main {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  padding: 50px 245px;
+
+  .main-header {
+    margin: 100px 0;
+    h1 {
+      margin-bottom: 50px;
+      font-size: 40px;
+    }
+  }
+  .main-imges {
+    width: 100%;
+
+    .imges-group {
+      padding: 20px 0;
+      display: flex;
+      gap: 30px;
+    }
+  }
+  .main-text {
+    padding: 100px 0;
+    p {
+      color: #2d2d2d;
+      font-size: 18px;
+      line-height: 25.07px;
+    }
+  }
+  .main-card {
+    h1 {
+      margin-bottom: 50px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+      text-align: center;
+      gap: 30px;
+      .card {
+        h3 {
+          margin: 14px;
+        }
+      }
+    }
+    .button {
+      text-align: center;
+      padding: 20px 0;
+      button {
+        padding: 15px 50px;
+        border: 1px solid #fcb427;
+      }
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .imges-group {
+      overflow-x: scroll;
+    }
+    .last-card{
+        display: none;
+    }
+    ::-webkit-scrollbar {
+        width: 2em;
+        height: 1em;
+      }
+      ::-webkit-scrollbar-track {
+        background: hsl(120, 8%, 80%);
+        border-radius: 100vw;
+        margin-block: 0.5em;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: hsl(120, 4%, 45%);
+        border: 0.25em solid hsl(120, 10%, 57%);
+        border-radius: 100vw;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: hsl(120, 4%, 81%);
+      }
+  }
+}
+// object page Abrorjon
+// footer css code Abrorjon
+
+footer{
+    *{
+        background-color: #2d2d2d;
+    }
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    padding: 80px 90px;
+    background-color: #2d2d2d;
+    color: white;
+    gap: 30px;
+    p{
+        font-family: sans-serif;
+    }
+    .ek, p , img{
+        width: fit-content;
+    }
+    ul{
+        width: 220px;
+        li{
+            list-style: none;
+            line-height: 25px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: sans-serif;
+            }
+        }
+    }
+    .Contactme{
+        button {
+            padding: 15px 50px;
+            color: #000000;
+            background-color: #FFFFFF;
+            font-family: sans-serif;
+            width: 224px;
+          }
+          .icons{
+              display: flex;
+              gap: 16px;
+            img{
+                width: 30px;
+            }
+          }
+    }
+}
+
+// footer css code Abrorjon
+>>>>>>> 08a22ad087c198d17b0ee4a33f52cf56c81cd5cb
