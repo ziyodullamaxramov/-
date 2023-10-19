@@ -256,35 +256,28 @@ footer {
   gap: 30px;
   margin-top: 100px;
 }
-
 footer * {
   background-color: #2d2d2d;
 }
-
 footer p {
   font-family: sans-serif;
 }
-
 footer .ek, footer p, footer img {
   width: -moz-fit-content;
   width: fit-content;
 }
-
 footer ul {
   width: 220px;
 }
-
 footer ul li {
   list-style: none;
   line-height: 25px;
 }
-
 footer ul li a {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
 }
-
 footer .Contactme button {
   padding: 15px 50px;
   color: #000000;
@@ -292,14 +285,10 @@ footer .Contactme button {
   font-family: sans-serif;
   width: 224px;
 }
-
 footer .Contactme .icons {
   display: flex;
   gap: 16px;
 }
-
 footer .Contactme .icons img {
   width: 30px;
-} 
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
