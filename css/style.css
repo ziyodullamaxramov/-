@@ -172,6 +172,11 @@ main {
 }
 
 /* Стили для мобильных устройств */
+@media screen and (max-width: 1400px) {
+  .last-card {
+    display: none;
+  }
+}
 .main {
   padding: 50px 245px;
 }

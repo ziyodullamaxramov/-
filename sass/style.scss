@@ -174,14 +174,11 @@ main{
   }
 }
 /* Стили для мобильных устройств */
-@media (max-width: 767px) {
-  
+@media screen and (max-width: 1400px) {
+  .last-card{
+    display: none;
+  }
 }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  
-}
-
 // END blog_stranisiy_statiya-fozil
 // object page Abrorjon
 .main {
