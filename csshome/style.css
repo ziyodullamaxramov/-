@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -56,6 +57,7 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
+  margin: 20px 0;
 }
 nav ol {
   display: flex;
@@ -82,12 +84,203 @@ nav .input-div {
   display: inline-block;
   border: 1px solid #2d2d2d;
   padding: 5px;
+  margin: 20px 0;
 }
 nav .input-div input {
   border: none;
+  outline: none;
 }
 nav .input-div i {
   color: #a9a4a4;
+}
+
+.bg-image {
+  background-image: url(../image/Изображение.png);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  position: relative;
+}
+.bg-image .arenda {
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.9;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.bg-image .arenda .arenda-container {
+  width: 700px;
+  height: 350px;
+}
+.bg-image .arenda .arenda-container .line {
+  width: 300px;
+  height: 4px;
+  background-color: #FCB427;
+}
+.bg-image .arenda .arenda-container h2 {
+  font-size: 44px;
+  line-height: 70px;
+}
+.bg-image .arenda .arenda-container p {
+  width: 80%;
+  line-height: 30px;
+  color: #4d4c4c;
+}
+.bg-image .arenda .arenda-container button {
+  padding: 15px 30px;
+  font-weight: 550;
+  border: 1px solid;
+  background: transparent;
+  margin-right: 20px;
+  transition: all 0.4s;
+}
+.bg-image .arenda .arenda-container button:hover {
+  background: #FCB427;
+  color: #fff;
+  border: 1px solid #FCB427;
+}
+.bg-image button {
+  padding: 30px 33px;
+  border: 2px solid #fff;
+  transition: all 0.4s;
+  z-index: 2;
+}
+.bg-image button i {
+  font-size: 35px;
+  color: #fff;
+}
+.bg-image button:hover {
+  background-color: #FCB427;
+  border: 2px solid #FCB427;
+}
+.bg-image #btn1 {
+  margin-left: -90px;
+}
+.bg-image h1 {
+  position: absolute;
+  font-size: 100px;
+  text-transform: uppercase;
+  right: 0;
+  top: 87%;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(141, 140, 140);
+}
+
+.default {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(242, 240, 240);
+}
+
+.arendu {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.arendu .spets {
+  position: relative;
+}
+.arendu .spets h2 {
+  font-size: 45px;
+  margin-left: 4%;
+}
+.arendu .spets h2 span {
+  color: #FCB427;
+}
+.arendu .spets h2 .gruzchik {
+  position: absolute;
+  bottom: -10%;
+}
+.arendu .info {
+  width: 450px;
+  line-height: 30px;
+  margin-top: 5%;
+  position: relative;
+}
+.arendu .info h2 {
+  font-size: 26px;
+}
+.arendu .info p {
+  color: #4d4c4c;
+}
+.arendu .info button {
+  padding: 15px 30px;
+  background: transparent;
+  font-weight: 550;
+  border: 1px solid;
+  transition: all 0.4s;
+}
+.arendu .info button:hover {
+  background: #FCB427;
+  color: #fff;
+  border: 1px solid #FCB427;
+}
+.arendu .info .rightLeft {
+  position: absolute;
+  right: 10%;
+  top: 55%;
+}
+.arendu .info .gradient {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, rgb(69, 68, 68) 25%, rgb(197, 194, 194) 25% 100%);
+}
+.arendu .info .position_text {
+  position: absolute;
+  right: -60%;
+  top: 0%;
+  text-transform: uppercase;
+  font-size: 130px;
+  z-index: -1;
+  opacity: 0.05;
+}
+
+.s_nami {
+  width: 100%;
+  height: 65vh;
+  background: rgb(243, 243, 243);
+}
+
+.s_nami h2 {
+  margin-left: 5%;
+  font-size: 35px;
+}
+.s_nami .s_nami_container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.s_nami .s_nami_container .kompany {
+  width: 40%;
+}
+.s_nami .s_nami_container .kompany p {
+  color: #4d4c4c;
+}
+.s_nami .s_nami_container .kompany button {
+  padding: 15px 30px;
+  background: transparent;
+  border: 1px solid;
+  transition: all 0.4s;
+  font-weight: 550;
+}
+.s_nami .s_nami_container .kompany button:hover {
+  background-color: #FCB427;
+  border: 1px solid #FCB427;
+  color: #fff;
+}
+.s_nami .s_nami_container .postavka {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  text-align: center;
+  margin-left: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */
