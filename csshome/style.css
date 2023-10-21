@@ -61,7 +61,7 @@ nav {
 }
 nav ol {
   display: flex;
-  width: 120%;
+  width: 130%;
   float: left;
   margin-left: 7%;
 }
@@ -80,7 +80,7 @@ nav ol li a:hover {
 nav .input-div {
   position: absolute;
   right: 5%;
-  top: 16%;
+  top: 14%;
   display: inline-block;
   border: 1px solid #2d2d2d;
   padding: 5px;
@@ -281,6 +281,496 @@ nav .input-div i {
   grid-template-columns: 200px 200px;
   text-align: center;
   margin-left: 15%;
+}
+
+.status {
+  width: 100%;
+  height: 300px;
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.status .verx {
+  position: absolute;
+  top: 0;
+  opacity: 0.3;
+  width: 100%;
+}
+.status .verx1 {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.3;
+  width: 100%;
+}
+.status .static_container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.status .static_container .static {
+  text-align: center;
+}
+.status .static_container .static h2 {
+  font-size: 80px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.status .static_container .static p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 550;
+}
+
+.default1 {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(243, 243, 243);
+}
+
+.realizovannie {
+  position: relative;
+}
+.realizovannie h2 {
+  margin-left: 5%;
+}
+.realizovannie .img_content {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  position: relative;
+}
+.realizovannie .img_content img {
+  width: 150px;
+}
+.realizovannie .img_content::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background-color: #4d4c4c;
+  position: absolute;
+  bottom: -20.5px;
+  left: 12.5%;
+}
+.realizovannie .g-314 {
+  margin-left: 70%;
+}
+.realizovannie .montaj {
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto;
+  line-height: 30px;
+}
+.realizovannie .montaj .montaj_img {
+  width: 650px;
+}
+.realizovannie .montaj .info {
+  width: 500px;
+  margin: 0 30px;
+}
+.realizovannie .montaj .info .oblast {
+  display: inline-block;
+  font-weight: 550;
+}
+.realizovannie .montaj .info .vakum {
+  color: #4d4c4c;
+}
+.realizovannie .montaj .info .podrobne {
+  font-weight: 550;
+  display: inline-block;
+}
+.realizovannie .montaj .info img {
+  margin-left: 30px;
+}
+.realizovannie .string {
+  position: absolute;
+  right: 0;
+  font-size: 90px;
+  text-transform: uppercase;
+  color: rgb(243, 243, 243);
+}
+
+.texniki {
+  width: 100%;
+  height: 110vh;
+  background-color: rgb(243, 243, 243);
+  margin-top: 83px;
+}
+.texniki h2 {
+  margin-left: 10%;
+  font-size: 30px;
+}
+.texniki .square {
+  margin-left: 70%;
+}
+.texniki .liner {
+  height: 3px;
+  width: 200px;
+  background-image: linear-gradient(to right, rgb(69, 68, 68) 25%, rgb(197, 194, 194) 25% 100%);
+  margin-left: 63%;
+}
+.texniki .gusenichniy {
+  display: flex;
+}
+.texniki .gusenichniy .div {
+  background-color: #fff;
+  margin: 10px;
+  position: relative;
+  box-shadow: 5px 5px 20px rgb(101, 100, 100);
+}
+.texniki .gusenichniy .div .hr {
+  width: 100%;
+  height: 1px;
+  background-color: #FCB427;
+}
+.texniki .gusenichniy .div .flex {
+  width: 360px;
+}
+.texniki .gusenichniy .div .yon1 {
+  position: absolute;
+  top: 50%;
+  width: 15.5px;
+}
+.texniki .gusenichniy .div .yon2 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 17px;
+}
+.texniki .gusenichniy .div h3 {
+  font-size: 25px;
+  width: 80%;
+  margin: auto;
+}
+.texniki .gusenichniy .div .xarktrestika {
+  width: 80%;
+  margin: auto;
+}
+.texniki .gusenichniy .div .btn {
+  display: flex;
+  justify-content: center;
+}
+.texniki .gusenichniy .div .btn button {
+  width: 80%;
+  padding: 15px 30px;
+  background: transparent;
+  font-weight: 550;
+  border: 1px solid;
+  transition: all 0.4s;
+}
+.texniki .gusenichniy .div .btn button:hover {
+  background: #FCB427;
+  color: #fff;
+  border: 1px solid #FCB427;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+}
+.btn1 button {
+  padding: 15px 30px;
+  background: transparent;
+  font-weight: 550;
+  border: 1px solid;
+  transition: all 0.4s;
+}
+.btn1 button:hover {
+  background: #FCB427;
+  color: #fff;
+  border: 1px solid #FCB427;
+}
+
+.sklad {
+  width: 100%;
+  height: 500px;
+  background-color: #2d2d2d;
+  position: relative;
+  color: #fff;
+}
+.sklad .verx {
+  position: absolute;
+  top: 0;
+  opacity: 0.3;
+  width: 100%;
+}
+.sklad .verx1 {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.3;
+  width: 100%;
+}
+.sklad h2 {
+  margin-left: 11%;
+  font-size: 30px;
+}
+.sklad .sklad_number {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.sklad .sklad_number .number {
+  text-align: center;
+  margin: 3%;
+  position: relative;
+}
+.sklad .sklad_number .number h1 {
+  font-size: 70px;
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke: 0.5px #fff;
+  top: -15%;
+  left: 55%;
+  opacity: 0.1;
+}
+.sklad .sklad_number .number h2 {
+  font-size: 45px;
+}
+.sklad .sklad_number .number p {
+  color: #a9a4a4;
+  line-height: 27px;
+}
+
+.default2 {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(243, 243, 243);
+}
+
+.operativno {
+  width: 100%;
+  height: 350px;
+  border-top: 35px solid;
+  border-bottom: 35px solid;
+  border-color: rgb(252, 209, 39);
+  background-color: #fff;
+  background-image: url(../image/мобкран\ силует\ 2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.operativno h2 {
+  margin-left: 11%;
+  font-size: 30px;
+}
+.operativno h2 span {
+  color: #FCB427;
+}
+.operativno .intput-container {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+}
+.operativno .intput-container .input-div {
+  width: 250px;
+  padding: 15px;
+  padding-right: none;
+  border: 1px solid;
+}
+.operativno .intput-container .input-div input {
+  border: none;
+  outline: none;
+}
+.operativno .intput-container button {
+  padding: 15px 50px;
+  background: transparent;
+  font-weight: 550;
+  border: 1px solid;
+  transition: all 0.4s;
+}
+.operativno .intput-container button:hover {
+  background: #FCB427;
+  color: #fff;
+  border: 1px solid #FCB427;
+}
+.operativno p {
+  display: inline-block;
+}
+.operativno .check {
+  margin-left: 11%;
+}
+
+.o-nas {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(243, 243, 243);
+  position: relative;
+}
+.o-nas .o_nas_container {
+  width: 85%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.o-nas .o_nas_container .text {
+  margin-top: 25%;
+  margin-right: 20%;
+  width: 500px;
+}
+.o-nas .o_nas_container .text p {
+  color: #4d4c4c;
+  line-height: 26px;
+}
+.o-nas .o_nas_container .video {
+  margin-left: 105;
+  margin-top: 12%;
+}
+.o-nas h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -1%;
+  top: 40%;
+  color: #e4e3e3;
+}
+
+.uslugi {
+  position: relative;
+}
+.uslugi h2 {
+  margin-left: 15%;
+  margin-top: 3%;
+  font-size: 35px;
+}
+.uslugi h3 {
+  position: absolute;
+  z-index: 0;
+  font-size: 140px;
+  color: rgb(243, 243, 243);
+}
+.uslugi h4 {
+  position: absolute;
+  font-size: 140px;
+  color: rgb(243, 243, 243);
+  text-transform: uppercase;
+  right: 0;
+  bottom: -11%;
+}
+.uslugi .uslug_container {
+  width: 70%;
+  margin-left: 13%;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.uslugi .uslug_container .uslug {
+  margin: 20px;
+  z-index: 1;
+}
+.uslugi .uslug_container .uslug button {
+  width: 100%;
+  background-color: #FCB427;
+  border: none;
+  color: #fff;
+  font-weight: 550;
+  padding: 15px;
+}
+
+.v_moskve {
+  width: 100%;
+  height: 125vh;
+  background-color: rgb(243, 243, 243);
+  margin-top: 5%;
+}
+.v_moskve .v-moskve-container {
+  width: 80%;
+  margin: auto;
+  line-height: 27px;
+}
+.v_moskve .v-moskve-container h2 {
+  font-size: 35px;
+}
+.v_moskve .v-moskve-container p {
+  color: #4d4c4c;
+}
+.v_moskve .v-moskve-container ul li {
+  list-style-position: inside;
+  list-style-image: url(../image/square.png);
+}
+
+.voprosi {
+  width: 100%;
+  height: 100vh;
+  background-color: #2d2d2d;
+  position: relative;
+}
+.voprosi .verx {
+  position: absolute;
+  width: 100%;
+}
+.voprosi .verx1 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.voprosi .voprosi_container {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+}
+.voprosi .voprosi_container .vopros {
+  width: 600px;
+  color: #e4e3e3;
+  line-height: 26px;
+  position: relative;
+}
+.voprosi .voprosi_container .vopros .imya, .voprosi .voprosi_container .vopros .telephone, .voprosi .voprosi_container .vopros .pochta {
+  width: 80%;
+  margin: auto;
+  height: 47px;
+  border: 1px solid #a9a4a4;
+  background-color: transparent;
+  padding: 10px;
+}
+.voprosi .voprosi_container .vopros .imya input, .voprosi .voprosi_container .vopros .telephone input, .voprosi .voprosi_container .vopros .pochta input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.voprosi .voprosi_container .vopros .imya input::placeholder, .voprosi .voprosi_container .vopros .telephone input::placeholder, .voprosi .voprosi_container .vopros .pochta input::placeholder {
+  color: #a9a4a4;
+}
+.voprosi .voprosi_container .vopros textarea {
+  width: 80%;
+  margin: auto;
+  outline: none;
+  border: 1px solid #a9a4a4;
+  background: transparent;
+  margin-left: 10%;
+  padding: 10px;
+}
+.voprosi .voprosi_container .vopros textarea::placeholder {
+  color: #a9a4a4;
+}
+.voprosi .voprosi_container .vopros .chec {
+  width: 80%;
+  margin: auto;
+}
+.voprosi .voprosi_container .vopros .chec button {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #a9a4a4;
+  outline: none;
+  background: transparent;
+  color: #a9a4a4;
+}
+.voprosi .voprosi_container .vopros .chec button:hover {
+  background-color: #FCB427;
+  border-color: #FCB427;
+  color: #fff;
+}
+.voprosi .voprosi_container .img_div .img_end {
+  position: absolute;
+  width: 840px;
+  right: 0;
+}
+
+.map img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
